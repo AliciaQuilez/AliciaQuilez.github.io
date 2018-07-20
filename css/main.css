@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+/*  LAYOUT */
+
+section {
+  overflow: hidden;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  overflow: hidden;
+  flex: initial;
+}
+
+h1 {
+  text-align: left;
+}
+
+/* TYPOGRAPHY */
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(13px + 1vw);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+p, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  color: white;
+}
+
+section.quiensoy a, .email, .hablamos{
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 0.8em;
+  background-color: #1188CF;
+  padding: 3px;
+  text-decoration-line: underline;
+  -webkit-transition: background-color 0.8s ease-out;
+  -moz-transition: background-color 0.8s ease-out;
+  -o-transition: background-color 0.8s ease-out;
+  transition: background-color 0.8s ease-out;
+}
+section.quiensoy a:hover, .email:hover, .hablamos:hover {
+  color: #ffffff;
+  background-color: #FFBD07;
+  text-decoration-line: underline;
+  -webkit-transition: background-color 0.8s ease-out;
+  -moz-transition: background-color 0.8s ease-out;
+  -o-transition: background-color 0.8s ease-out;
+  transition: background-color 0.8s ease-out;
+}
+
+.hablamos{
+  background-color: #FFBD07;
+}
+
+ .hablamos:hover {
+   background-color: #d9d9d9;
+ }
+
+section.contacto a {
+  font-size: 2em;
+}
+
+section.quehago a img {
+  transition: transform 0.2s ease-in-out;}
+
+section.quehago a img:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.1, 1.1);
+}
+
+
+
+section.contacto a i {
+  color: #1188CF;
+  background-color: transparent;
+  -webkit-transition: color 0.8s ease-out;
+  -moz-transition: color 0.8s ease-out;
+  -o-transition: color 0.8s ease-out;
+  transition: color 0.8s ease-out;
+}
+section.contacto a i:hover {
+  color: #FFBD07;
+  background-color: transparent;
+  -webkit-transition: color 0.8s ease-out;
+  -moz-transition: color 0.8s ease-out;
+  -o-transition: color 0.8s ease-out;
+  transition: color 0.8s ease-out;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+a.nav-link {
+  font-size: 0.8em;
+}
+
+/* THEME  */
+
+body {
+  background: white;
+  color: black;
+}
+
+header {
+  background: transparent;
+}
+
+footer {
+  background: grey;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/*modificaciones*/
+
+.navbar-toggler-icon {
+  width: 0.9em;
+  height: 0.9em;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, .5);
+  border-color: transparent;
+}
+
+button.navbar-toggler:focus {
+  outline: none;
+}
+
+.quiensoy {
+  background-image: url("");
+  /*background-size: cover;*/
+  background-color: #FFBD07;
+}
+
+.quehago {
+  background-color: #1188CF;
+  /*azul*/
+  padding: 5em 8em 7em 9em;
+}
+
+.contacto {
+  background-color: #ededed;
+  text-align: center;
+  padding: 8em 0;
+  /*gris*/
+}
+
+.quiensoy .col-md-7 {
+  padding-right: 7em;
+  padding-top: 8em;
+}
+
+.gif {
+  display: inline;
+  position: relative;
+  top: 10em;
+  left: 2em;
+  width: 5em;
+}
+
+.contacto .col-md {
+  padding-right: 7em;
+  padding-top: 8em;
+}
+
+section {
+  height: 100vh;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+main {
+  top: 0;
+  position: absolute;
+}
+
+.quehago img {
+  width: 150px;
+}
+
+.navbar-brand-black {
+  color: #000000;
+}
+
+.navbar-brand-blue {
+  color: #1188CF;
+}
+
+.navbar-brand-orange {
+  color: #FFBD07;
+}
+
+.quehago h1, .quehago p {
+  color: white;
+}
+
+.container {
+  padding: 15px 15px 0px 15px;
+}
+
+
+.contacto h1 {
+  text-align: center;
+  color: black;
+}
