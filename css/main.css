@@ -154,13 +154,11 @@ button.navbar-toggler:focus {
 
 .quiensoy {
   background-image: url("");
-  /*background-size: cover;*/
   background-color: #FFBD07;
 }
 
 .quehago {
   background-color: #1188CF;
-  /*azul*/
   padding: 5em 8em 7em 9em;
 }
 
@@ -168,7 +166,6 @@ button.navbar-toggler:focus {
   background-color: #ededed;
   text-align: center;
   padding: 8em 0;
-  /*gris*/
 }
 
 .quiensoy .col-md-7 {
