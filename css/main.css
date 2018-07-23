@@ -187,12 +187,10 @@ button.navbar-toggler:focus {
 }
 
 section {
-  height: 100vh;
-}
-
-section {
+  min-height: 100vh;
   margin-bottom: 15px;
 }
+
 
 main {
   top: 0;
@@ -205,6 +203,9 @@ main {
 
 .navbar-brand-black {
   color: #000000;
+}
+.navbar-brand-white{
+  color:#ffffff;
 }
 
 .navbar-brand-blue {

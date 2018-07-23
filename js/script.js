@@ -16,3 +16,9 @@ for (i = 0; i < links.length; i++) {
     element.classList.remove('show');
   })
 };
+
+var logo = document.getElementById('logo');
+window.addEventListener('scroll', function(){
+  if(window.innerHeight > document.documentElement.clientHeight)
+  logo.classList.add('navbar-brand-white');
+})
